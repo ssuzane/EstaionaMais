@@ -8,7 +8,39 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Home - estaciona+</title>
 </head>
-<body class="bg-sky-900">
-    
+<body class="bg-sky-900 bg-[url('./img/fundo.svg')] bg-no-repeat bg-cover">
+
+    <header class="w-[1920px] h-[120px] bg-sky-900 opacity-75">
+       <!-- <div class="w-[1920px] h-[160px] bg-sky-900 opacity-75"></div> -->
+       <img class="pl-[50px] pt-[10px] " src="./img/logo.svg" alt="logo">
+       <div class="flex justify-end absolute left-[1500px] bottom-[850px] text-xl "> 
+       <a href="../PageEntrada/entrada.html"> <p class="absolute right-[250px] text-white">Início</p> </a>
+       <a href="../PageSobre/sobreNos.html"><p class="absolute right-[120px] text-white cursor-pointer">Sobre Nós</p> </a>
+       <a href="../PageLogin/Login.html"><p class="text-white cursor-pointer">Entrar</p> </a>
+       </div>
+    </header>
+
+    <main>
+        <div> 
+            <h1 class="text-white text-3xl pl-[30px] pt-[30px]">Cadastrar um veículo: </h1>
+            <div class=" flex pl-[30px] pt-[20px] space-x-4"> 
+                <button class="w-[210px] h-[182px] bg-white rounded flex justify-center align-items-center hover:bg-orange-200 shadow-lg shadow-orange-200/50 transition delay-150 duration-300 ease-in-out cursor-wait"> <img class="h-[150px] pt-[50px]" src="./img/car.svg" alt="carro"> </button>
+                <button class="w-[210px] h-[182px] bg-white rounded flex justify-center align-items-center hover:bg-orange-200 shadow-lg shadow-orange-200/50 transition delay-150 duration-300 ease-in-out cursor-wait"> <img class="h-[150px] pt-[50px]" src="./img/moto.svg" alt=""> </button>
+                <button class="w-[210px] h-[182px] bg-white rounded flex justify-center align-items-center hover:bg-orange-200 shadow-lg shadow-orange-200/50 transition delay-150 duration-300 ease-in-out cursor-wait"> <img src="./img/van.svg" alt=""> </button>
+                <button class="w-[210px] h-[182px] bg-white rounded flex justify-center align-items-center hover:bg-orange-200 shadow-lg shadow-orange-200/50 transition delay-150 duration-300 ease-in-out cursor-wait"> <img class="h-[150px] pt-[50px]" src="./img/bike.svg" alt=""> </button>
+                <button class="w-[210px] h-[182px] bg-white rounded flex justify-center align-items-center hover:bg-orange-200 shadow-lg shadow-orange-200/50 transition delay-150 duration-300 ease-in-out cursor-wait"> <img class="h-[150px] pt-[50px]" src="./img/bus.svg" alt=""> </button>
+                <button class="w-[210px] h-[182px] bg-white rounded flex justify-center align-items-center hover:bg-orange-200 shadow-lg shadow-orange-200/50 transition delay-150 duration-300 ease-in-out cursor-wait"> <img class="h-[150px] pt-[50px]" src="./img/patinete.svg" alt=""> </button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="pt-[400px]">
+        <div class="flex justify-center space-x-10">
+            <a href="/PageReservaVaga/reserva.html"> <button class="bg-cyan-100 h-[101px] w-[393px] rounded text-xl text-white"><p>reserve sua vaga</p></button> </a>
+            <a href="/PageCadastroVeiculo/cadastroVeiculo.html"> <button class="bg-cyan-900 h-[101px] w-[393px] rounded text-xl text-orange-200"> cadastre um veículo</button> </a>
+        </div>
+    </footer>
+   
 </body>
 </html>
