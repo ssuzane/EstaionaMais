@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pagamento</title>
+</head>
+<body class="bg-sky-800">
+    <header class="flex items-center justify-center pt-[20px]">
+        <div>
+            <h1 class="pb-[20px] text-2xl text-white pl-[150px] font-semibold">Pagamento</h1>
+            <div class="h-[5px] w-[400px] bg-white flex space-x-20 items-center justify-center">
+                <div class="bg-orange-300 h-[25px] w-[25px] rounded-full"></div>
+                <div class="bg-sky-200 h-[25px] w-[25px] rounded-full"></div>
+                <div class="bg-orange-300 h-[25px] w-[25px] rounded-full"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="w-[1350px] h-[600px] bg-white rounded-lg absolute left-[300px] bottom-[70px] border-[8px] border-sky-200">
+        <div class="pl-[100px] pt-[50px]">
+            <h1 class="text-4xl pl-[20px] pt-[15px] text-cyan-800 font-medium">Pagamento: </h1>
+            <div class="pl-[20px]">
+                <h2 class="text-cyan-800 font-semibold text-2xl pt-[10px]">Veículo: </h2>
+                <select class="border-2 border-sky-950 h-[50px] w-[300px] text-xl font-light" name="" id="">
+                    <option value="" selected>
+                        <p>Renault Kwid 2018</p>
+                    </option>
+                    <option value="">
+                        <p>Fiat Mobi Like</p>
+                    </option>
+                    <option value="">
+                        <p>Citroën C3 Live</p>
+                    </option>
+                    <option value="">
+                        <p>Peugeot 208 Like</p>
+                    </option>
+                    <option value="">
+                        <p>Fiat Argo</p>
+                    </option>
+                    <option value="">
+                        <p>Hyundai HB20 Sense Plus</p>
+                    </option>
+                </select>
+
+            <div class="text-sky-400">
+                <div class="p">
+                    <div class="flex font-medium">
+                        <p>Subtotal:</p>
+                        <p class="absolute left-[345px]">35</p>
+                    </div>
+                    <div class="flex font-medium">
+                        <p>desconto: </p>
+                        <p class="absolute left-[345px]">87</p>
+                        </div>
+                    <div class="flex font-medium">
+                        <h3>Total: </h3>
+                        <p class="absolute left-[340px]">150</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="pt-[20px] pl-[20px]">
+                <h3 class="text-3xl pl-[2px] pt-[20px] text-cyan-800 font-medium">Forma de pagamento: </h3>
+            <div class="pl-[10px] pt-[20px]">
+                <select class="border-2 border-sky-950 h-[50px] w-[200px] " name="" id="">
+                    <option value="">
+                        cartão de Débito
+                    </option>
+                    <option value="">
+                        pix
+                    </option>
+                    <option value="">
+                        cartao de Crédito
+                    </option>
+                    <option value="">
+                        <option value="">
+                            Boleto bancario
+                        </option>
+                    </option>
+                </select>
+                <p class="text-sky-300 font-medium">5% de desonto no pix</p>
+                <div class="pt-[20px]">
+                    <a href="../PageResumo/resumo.html"> <button class="bg-sky-900 h-[50px] w-[200px] rounded-sm "><p class="text-xl text-white rounded-lg">Pagar</p></button> </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

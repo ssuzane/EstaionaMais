@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,65 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Reserva</title>
 </head>
-<body>
-    
+<body class="bg-sky-800">
+    <header class="flex items-center justify-center pt-[20px]">
+        <div>
+            <h1 class="pb-[20px] text-2xl text-white pl-[50px] font-semibold">Reserva</h1>
+            <div class="h-[5px] w-[400px] bg-white flex space-x-20 items-center justify-center">
+                <div class="bg-sky-200 h-[25px] w-[25px] rounded-full"></div>
+                <div class="bg-orange-300 h-[25px] w-[25px] rounded-full"></div>
+                <div class="bg-orange-300 h-[25px] w-[25px] rounded-full"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pt-[100px] pl-[200px]">
+            <h1 class="text-2xl text-white pb-[20px]">Seus Veículos: </h1>
+            <select class="h-[50px] w-[300px] rounded-lg text-xl text-cyan-800" name="" id="">
+                <option value="" selected>
+                    <p>Renault Kwid 2018</p>
+                </option>
+                <option value="">
+                    <p>Fiat Mobi Like</p>
+                </option>
+                <option value="">
+                    <p>Citroën C3 Live</p>
+                </option>
+                <option value="">
+                    <p>Peugeot 208 Like</p>
+                </option>
+                <option value="">
+                    <p>Fiat Argo</p>
+                </option>
+                <option value="">
+                    <p>Hyundai HB20 Sense Plus</p>
+                </option>
+            </select>
+        </div>
+
+        <div class="w-[1350px] h-[444px] bg-white rounded-lg absolute left-[200px] bottom-[70px]">
+            <div>
+                <div class="pl-[20px] pt-[50px]">
+                    <h2 class="text-3xl pl-[20px] pt-[20px]">De: </h2>
+                    <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="date">
+                    <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="time">
+                    
+                </div>
+                <div class="pl-[20px] pt-[50px]">
+                    <h3 class="text-3xl pl-[20px]">Até:</h3>
+                    <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="date">
+                    <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="time">
+                    <div class="pt-[2px]">
+                    <h3 class="text-xl">Vaga Coberta: </h3>
+                    <input class="absolute top-[300px] left-[165px] h-[20px] w-[20px]" type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="../PagePagamento/pagamento.html"><button class="e-in-out delay-150 bg-green-500 hover:-translate-y-1 hover:scale-11 hover:bg-green-900 duration-300 h-[50px] w-[250px] absolute left-[1000px] bottom-[100px] rounded-sm"><p class="text-white">prosseguir para pagamento</p></button> </a>
+        </div>
+    </main>
 </body>
 </html>

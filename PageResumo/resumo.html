@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Resumo do Pedido</title>
+</head>
+<body class="bg-sky-800">
+    <header class="flex items-center justify-center pt-[20px]">
+        <div>
+            <h1 class="pb-[20px] text-2xl text-white pl-[250px] font-semibold">Comprovante</h1>
+            <div class="h-[5px] w-[400px] bg-white flex space-x-20 items-center justify-center">
+                <div class="bg-sky-200 h-[25px] w-[25px] rounded-full"></div>
+                <div class="bg-sky-200 h-[25px] w-[25px] rounded-full"></div>
+                <div class="bg-orange-300 h-[25px] w-[25px] rounded-full"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="flex absolute bottom-[555px] left-[300px]">
+            <h1 class="text-4xl pl-[20px] pt-[15px] text-white font-medium">Comprovate: </h1>
+        </div>
+        <div class="w-[1350px] h-[434px] bg-white rounded-lg absolute left-[300px] bottom-[70px] border-[8px] border-sky-200">
+            <div class="pl-[20px] pt-[50px]">
+                <h2 class="text-3xl pl-[20px] pt-[20px]">De: </h2>
+                <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="date">
+                <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="time">
+                
+            </div>
+            <div class="pl-[20px] pt-[50px]">
+                <h3 class="text-3xl pl-[20px]">Até:</h3>
+                <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="date">
+                <input class="border-2 border-blue-900 h-[50px] w-[200px] text-xl" type="time">
+                <div class="pt-[2px]">
+                <h3 class="text-xl">Vaga Coberta: </h3>
+                <input class="absolute top-[300px] left-[165px] h-[20px] w-[20px]" type="checkbox">
+                </div>
+            </div>
+
+            <div class="bg-white w-[700px] h-[200px] absolute left-[580px] top-[20px] border-4 border-sky-900">
+                <div class="flex pt-30px">
+                    <p class="absolute text-sky-900 left-[150px] font-semibold text-xl">Pagador: <p class="absolute left-[250px] font-medium">Vitor Paes Kolle</p> </p>
+                    <p class="absolute top-[50px] left-[150px] text-sky-900 font-semibold text-xl">Forma de Pagamneto: <p class="absolute top-[50px] left-[355px] font-medium">Pix</p> </p>
+                    <p class="absolute top-[100px] left-[150px] text-sky-900 font-semibold text-xl">Tempo de Reserva: <p class="absolute top-[100px] left-[150px]">00h:00m</p> </p>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
