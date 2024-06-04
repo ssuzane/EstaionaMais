@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,76 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Cadastro de Veículo</title>
 </head>
-<body>
-    
+<body class="bg-sky-800">
+    <main class="w-[1350px] h-[700px] bg-white rounded-lg absolute left-[300px] bottom-[70px] border-[8px] border-sky-200">
+        <div>
+            <h1 class="text-4xl pt-[50px] pl-[40px] text-cyan-500 font-semibold	">Cadastrar Veículo:</h1>
+            <div class="absolute top-[200px] pl-[50px]">
+                <p class="text-2xl text-sky-900 font-bold">Veículo:</p>
+                <select class="border-2 border-sky-950 h-[80px] w-[400px] text-xl font-normal" name="" id="">
+                    <option value="">
+                        <p>Carro</p>
+                    </option>
+                    <option value="">
+                        <p>Moto</p>
+                    </option>
+                    <option value="">
+                        <p>Van</p>
+                    </option>
+                    <option value="">
+                        <p>Bicicleta</p>
+                    </option>
+                    <option value="">
+                        <p>Ônibus</p>
+                    </option>
+                    <option value="">
+                        <p>Patinete</p>
+                    </option>
+                </select>
+                <div class="mt-[50px]">
+                <p class="text-2xl text-sky-900 font-bold">Placa:</p>
+                <input  class="border-2 border-sky-950 h-[80px] w-[400px] text-xl font-light" type="text">
+            </div>
+            </div>
+            <div class="absolute right-[50px] top-[200px]">
+                <p class="text-2xl text-sky-900 font-bold">Modelo:</p>
+                <input  class="border-2 border-sky-950 h-[80px] w-[400px] text-xl font-light" type="text">
+                <div class="mt-[50px]">
+                <p class="text-2xl text-sky-900 font-bold">Cor:</p>
+                <select class="border-2 border-sky-950 h-[80px] w-[400px] text-xl font-normal" name="" id="">
+                    <option value="" selected>
+                        <p>Dourado</p>
+                    </option>
+                    <option value="">
+                        <p>Azul</p>
+                    </option>
+                    <option value="">
+                        <p>Vermelho</p>
+                    </option>
+                    <option value="">
+                        <p>Prata</p>
+                    </option>
+                    <option value="">
+                        <p>Cinza</p>
+                    </option>
+                    <option value="">
+                        <p>Marrom</p>
+                    </option>
+                    <option value="">
+                        <p>preto</p>
+                    </option>
+                    <option value="">
+                        <p>branco</p>
+                    </option>
+                </select>
+            </div>
+            </div>
+            <div class="flex justify-center items-center mt-[415px] mr-[50px]">
+                <p class="text-2xl text-sky-900 font-bold">Marca:</p>
+                <input  class="border-2 border-sky-950 h-[80px] w-[400px] text-xl font-light" type="text">
+            </div>
+            <a href="../PageHome/home.html"> <button class="w-[200px] h-[60px] bg-sky-800 rounded-lg absolute left-[600px] bottom-[15px]"> <p class="text-white text-xl">Salvar</p> </button> </a>
+        </div>
+    </main>
 </body>
 </html>
