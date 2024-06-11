@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./src/input.css">
     <link rel="stylesheet" href="./src/output.css">
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+    <script src="./login.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Login</title>
 </head>
@@ -23,11 +24,11 @@
                 <p class="text-center text-2xl">Login</p>
 
                 <div class="flex m-10 flex items-center justify-center flex-col">
-                    <input class="bg-cyan-800 w-[400px] h-[60px] m-10 rounded-md" type="text" placeholder="E-mail">
-                    <input class="bg-cyan-800 w-[400px] h-[60px] rounded-lg" type="text" placeholder="Senha">
+                    <input class="bg-cyan-800 w-[400px] h-[60px] m-10 rounded-md" id="email" type="text" placeholder="E-mail">
+                    <input class="bg-cyan-800 w-[400px] h-[60px] rounded-lg" id="senha" type="text" placeholder="Senha">
 
                     <div class="mt-[400px] absolute flex">
-                    <a href="../PageHome/home.html"> <button class="w-[200px] h-[60px] bg-cyan-600 rounded-lg"><p>Entrar</p></button> </a> 
+                     <button onclick="logar()" class="w-[200px] h-[60px] bg-cyan-600 rounded-lg"><p>Entrar</p></button> 
                     </div>
                 </div>
             </div>
